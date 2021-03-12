@@ -9,7 +9,7 @@ body{
 }
 
 header{
-  background-color: #F3F4F5;
+  background-color: #FCFCFC;
   padding: 35px 25px;
 }
 
@@ -45,8 +45,43 @@ header .header-right .dropdown-menu{
   width: 250px;
   /* background-color: #fff; */
   position: absolute;
-  top: 39px;
-  left: -77px;
+}
+
+header .header-right .dropdown-menu.first{
+  margin-top: 20px;
+  /* top: 25px;
+  left: 50px; */
+}
+
+header .header-right .dropdown-menu.second{
+  margin-top: 20px;
+  left: 800px;
+}
+
+header .header-right .dropdown-menu.third{
+  margin-top: 20px;
+  left: 840px;
+}
+
+header .header-right .dropdown-menu.fourth{
+  margin-top: 20px;
+  left: 880px;
+}
+
+header .header-right .dropdown-menu.fifth{
+  margin-top: 20px;
+  left: 920px;
+}
+
+header .header-right .dropdown-menu.sixth{
+  margin-top: 20px;
+  left: 960px;
+}
+
+
+.button{
+  background-color: #F3F4F5;
+  border-radius: 50px;
 }
 
 .red{
@@ -59,4 +94,12 @@ header .header-right .dropdown-menu{
 
 .yellow{
   background-color: yellow;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.black{
+  background-color: black;
 }
