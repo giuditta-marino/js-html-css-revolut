@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 header{
   background-color: #F3F4F5;
   padding: 35px 25px;
@@ -32,11 +36,23 @@ header li a{
   color: #000;
 }
 
+header li a img{
+  height: 20px;
+}
+
 header .header-right .dropdown-menu{
   height: 120px;
   width: 250px;
-  background-color: #fff;
+  /* background-color: #fff; */
   position: absolute;
   top: 39px;
   left: -77px;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
 }
