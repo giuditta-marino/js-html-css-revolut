@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-  var dropdown = $('header-right ul li.drop');
+  var dropdown = $('.header-right ul li.drop');
+  console.log('ok');
 
   // AL CLICK SULL'LI
   dropdown.click(function() {
