@@ -43,7 +43,7 @@ header li a img{
 header .header-right .dropdown-menu{
   height: 120px;
   width: 250px;
-  /* background-color: #fff; */
+  display: none;
   position: absolute;
 }
 
