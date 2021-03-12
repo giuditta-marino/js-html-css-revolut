@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #F3F4F5;
+  padding: 35px 25px;
+}
+
+header > .header-left, header > .header-right {
+  display: inline-block;
+}
+
+header ul li{
+  text-align: center;
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+
+header > .header-right{
+  float: right;
+  height: 36px;
+  padding-top: 20px;
+
+}
+
+header li a{
+  text-decoration: none;
+  color: #000;
+}
+
+header .header-right .dropdown-menu{
+  height: 120px;
+  width: 250px;
+  background-color: #fff;
+  position: absolute;
+  top: 39px;
+  left: -77px;
+}
