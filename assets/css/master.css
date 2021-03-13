@@ -82,14 +82,26 @@ header .header-right .dropdown-menu.sixth{
 }
 
 .button{
-  background-color: #ebecec;
+  background-color: rgba(231, 232, 232, 0.8);
   border-radius: 15px;
   padding: 14px 25px;
+}
+
+.btn-grey{
+  color: #000;
+}
+
+.btn-grey:hover{
+  background-color: rgba(231, 232, 232, 1);
 }
 
 .btn-black{
   color: #fff;
   background-color: #000;
+}
+
+.btn-black:hover{
+  opacity: 0.8;
 }
 
 .red{
