@@ -12,16 +12,12 @@ $(document).ready(function() {
     dropdownMenu.eq(dropdownPos).show();
   })
 
-  // AL MOUSEOVER SUGLI LI
+  // AL CLICK SU UN PUNTO QUALSIASI DEL DOCUMENT
   $(document).click(function dropdownOff() {
     var dropdownMenu = $('header .header-right .dropdown-menu');
-    // PER OGNI LI DEVO NASCONDERE IL DROPDOWN MENU CORRISPONDENTE
+    // NASCONDO GLI LI
     dropdownMenu.hide();
   })
-
-
-
-
 
 
 

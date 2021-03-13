@@ -1,3 +1,4 @@
+/* AZZERAMENTO E GENERALI */
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +8,7 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-
+ /* HEADER */
 header{
   background-color: #f3f4f5;
   padding: 35px 25px;
@@ -39,6 +40,7 @@ header li a:hover{
   color: #000;
 }
 
+/* LOGO */
 .logo-wrapper{
   text-align: center;
 }
@@ -47,6 +49,7 @@ header li a:hover{
   height: 23px;
 }
 
+/* MENU A TENDINA */
 header .header-right .dropdown-menu{
   display: none;
   position: absolute;
@@ -108,6 +111,7 @@ header .header-right .dropdown-menu.fourth{
   left: 300px;
 }
 
+/* UTILITY BUTTON */
 .button{
   background-color: rgba(231, 232, 232, 0.8);
   border-radius: 15px;
@@ -119,19 +123,21 @@ header .header-right .dropdown-menu.fourth{
   color: #000;
 }
 
-.btn-grey:hover{
-  background-color: rgba(231, 232, 232, 1);
-}
-
 .btn-black{
   color: #fff;
   background-color: #000;
+}
+
+/* HOVER BUTTON */
+.btn-grey:hover{
+  background-color: rgba(231, 232, 232, 1);
 }
 
 .btn-black:hover{
   opacity: 0.8;
 }
 
+/* UTILITY TESTO */
 .t-black{
   color: #000;
 }
