@@ -15,14 +15,9 @@ header{
   font-weight: 400;
 }
 
-header > .header-left, header > .header-right {
-  display: inline-block;
-}
-
 header ul li{
   text-align: center;
   display: inline-block;
-  position: relative;
 }
 
 header > .header-right, header > .header-left, header > .logo-wrapper{
@@ -31,13 +26,16 @@ header > .header-right, header > .header-left, header > .logo-wrapper{
   padding-top: 20px;
 }
 
+header > .header-right{
+  position: relative;
+}
+
 header li a{
   text-decoration: none;
   color: #86888a;
 }
 
 .logo-wrapper{
-  display: inline-block;
   text-align: center;
 }
 
@@ -46,39 +44,57 @@ header li a{
 }
 
 header .header-right .dropdown-menu{
-  height: 120px;
-  width: 250px;
   display: none;
   position: absolute;
+  border-radius: 8px;
+  color: #86888a;
+  background-color: #fff;
+  padding: 15px 18px;
 }
 
 header .header-right .dropdown-menu.first{
+  display: block;
+}
+
+header .header-right .dropdown-menu h4{
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: #CED5DB;
+}
+
+header .header-right .dropdown-menu h4 span{
+  padding-left: 12px;
+}
+
+header .header-right .dropdown-menu ul li{
+  display: block;
+  text-align: left;
+  line-height: 50px;
+}
+
+header .header-right .dropdown-menu ul li a:hover{
+  color: #000;
+}
+
+header .header-right .dropdown-menu.first{
+  width: 820px;
   margin-top: 20px;
+  left: -179px;
 }
 
 header .header-right .dropdown-menu.second{
   margin-top: 20px;
-  left: 800px;
+  left: 75px;
 }
 
 header .header-right .dropdown-menu.third{
   margin-top: 20px;
-  left: 840px;
+  left: 185px;
 }
 
 header .header-right .dropdown-menu.fourth{
   margin-top: 20px;
-  left: 880px;
-}
-
-header .header-right .dropdown-menu.fifth{
-  margin-top: 20px;
-  left: 920px;
-}
-
-header .header-right .dropdown-menu.sixth{
-  margin-top: 20px;
-  left: 960px;
+  left: 300px;
 }
 
 .button{
@@ -102,22 +118,6 @@ header .header-right .dropdown-menu.sixth{
 
 .btn-black:hover{
   opacity: 0.8;
-}
-
-.red{
-  background-color: red;
-}
-
-.blue{
-  background-color: blue;
-}
-
-.yellow{
-  background-color: yellow;
-}
-
-.purple{
-  background-color: purple;
 }
 
 .t-black{
