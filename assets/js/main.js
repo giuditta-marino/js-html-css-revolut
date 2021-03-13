@@ -1,13 +1,24 @@
 $(document).ready(function() {
 
-  var dropdown = $('.header-right ul li.drop');
-  console.log('ok');
+  var dropdown = $('header .header-right ul li.drop');
 
-  // AL CLICK SULL'LI
-  dropdown.click(function() {
-    console.log('ok');
+  // AL MOUSEENTER SUGLI LI
+  dropdown.mouseenter(function dropdownOn() {
+    var dropdownPos = dropdown.index(this);
+    var dropdownMenu = $('header .header-right .dropdown-menu');
+    // NASCONDO TUTTI I DROPDOWN APERTI
+    dropdownMenu.hide()
+    // PER OGNI LI DEVO MOSTRARE IL DROPDOWN MENU CORRISPONDENTE
+    dropdownMenu.eq(dropdownPos).show();
   })
-    // DEVO MOSTRARE IL DROPDOWN MENU
+
+  // AL MOUSEOVER SUGLI LI
+  $(document).click(function dropdownOff() {
+    var dropdownMenu = $('header .header-right .dropdown-menu');
+    // PER OGNI LI DEVO NASCONDERE IL DROPDOWN MENU CORRISPONDENTE
+    dropdownMenu.hide();
+  })
+
 
 
 
