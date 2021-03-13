@@ -35,6 +35,10 @@ header li a{
   color: #86888a;
 }
 
+header li a:hover{
+  color: #000;
+}
+
 .logo-wrapper{
   text-align: center;
 }
@@ -70,6 +74,17 @@ header .header-right .dropdown-menu ul li{
   display: block;
   text-align: left;
   line-height: 50px;
+  color: rgb(185, 185, 185);
+  position: relative;
+}
+
+header .header-right .dropdown-menu ul li span{
+  text-transform: uppercase;
+  color: blue;
+  font-size: 0.6em;
+  position: absolute;
+  top: -15px;
+  left: 65px;
 }
 
 header .header-right .dropdown-menu ul li a:hover{
